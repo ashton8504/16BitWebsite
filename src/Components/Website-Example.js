@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const WebsiteImage = styled.img`
-  width: 100vw;
+  width: 100%;
 `;
 
 function WebsiteExample({ websiteData }) {
@@ -11,7 +11,7 @@ function WebsiteExample({ websiteData }) {
         <>
             <WebsiteImage src={websiteData.image} alt={`${websiteData.name} main image`}/>
             <p>
-                <a href={websiteData.url}>{websiteData.name}</a>
+                <a href={websiteData.url} target="_blank">{websiteData.name}</a>
             </p>
         </>
         

@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledLandingImage = styled.img`
-  position: absolute;
   height: 100vh;
   width: 100vw;
 `;
